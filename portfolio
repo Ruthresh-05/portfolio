@@ -6,6 +6,7 @@
 <title>RUTHRESH S | EEE Engineer | Portfolio & Certifications</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <style>
   :root {
     --bg: #080808;
@@ -497,7 +498,6 @@
   .skill-item:hover .skill-fill { transform: scaleX(1); }
 
   /* Timeline / Experience */
-  .experience-section { }
   .timeline {
     padding: 0 60px 80px;
   }
@@ -517,7 +517,6 @@
     text-transform: uppercase;
     padding-top: 4px;
   }
-  .timeline-content {}
   .timeline-role {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.6rem;
@@ -751,16 +750,16 @@
   </ul>
 </nav>
 
-<!-- Hero -->
+<!-- Hero Section - ALL CONTENT INTEGRATED -->
 <section class="hero" id="home">
   <div class="hero-grid-line"></div>
   <div class="hero-circle"></div>
-  <p class="hero-eyebrow">⚡ EEE Engineer | Web Developer | JLPT N5 Certified</p>
+  <p class="hero-eyebrow">⚡ Electrical Engineering Student | Web Developer | JLPT N5 Certified</p>
   <h1 class="hero-title">RUTHRESH S<br><em>Electrical & Electronics</em><br>Engineering Student</h1>
-  <p class="hero-sub">3rd Year BE EEE @ Karpagam College of Engineering. Passionate about merging electrical systems with modern web technologies. Building intelligent solutions, AI-powered applications, and contributing to smart grid innovations.</p>
+  <p class="hero-sub">3rd Year BE EEE @ Karpagam College of Engineering. Passionate about merging electrical systems with modern web technologies. Building intelligent solutions, AI-powered applications, and contributing to smart grid innovations. Currently in 3rd year BE EEE at Karpagam College of Engineering. Certified in JLPT N5, Arduino, MongoDB, and Process Mining. Completed internship at NLC India Limited studying thermal power electrical systems.</p>
   <div class="hero-cta">
-    <a href="#certifications" class="btn-primary">View Certifications</a>
-    <a href="#contact" class="btn-ghost">Get In Touch</a>
+    <a href="#certifications" class="btn-primary"><i class="fas fa-certificate"></i> View Certifications</a>
+    <a href="#contact" class="btn-ghost"><i class="fas fa-paper-plane"></i> Get In Touch</a>
   </div>
   <div class="hero-scroll">
     <div class="scroll-line"></div>
@@ -772,15 +771,15 @@
 <div class="stats-bar">
   <div class="stat-item reveal">
     <div class="stat-number">15+</div>
-    <div class="stat-label">Certifications</div>
+    <div class="stat-label">Certifications Earned</div>
   </div>
   <div class="stat-item reveal">
     <div class="stat-number">5+</div>
-    <div class="stat-label">Projects</div>
+    <div class="stat-label">Projects Completed</div>
   </div>
   <div class="stat-item reveal">
     <div class="stat-number">3</div>
-    <div class="stat-label">Languages</div>
+    <div class="stat-label">Languages Spoken</div>
   </div>
   <div class="stat-item reveal">
     <div class="stat-number">N5</div>
@@ -788,7 +787,7 @@
   </div>
 </div>
 
-<!-- Marquee -->
+<!-- Marquee - Skills Showcase -->
 <div class="marquee-section">
   <div class="marquee-track">
     <div class="marquee-item">HTML5 <span class="marquee-dot"></span></div>
@@ -796,18 +795,15 @@
     <div class="marquee-item">Arduino <span class="marquee-dot"></span></div>
     <div class="marquee-item">MongoDB <span class="marquee-dot"></span></div>
     <div class="marquee-item">Process Mining <span class="marquee-dot"></span></div>
-    <div class="marquee-item">JLPT N5 <span class="marquee-dot"></span></div>
+    <div class="marquee-item">JLPT N5 Japanese <span class="marquee-dot"></span></div>
     <div class="marquee-item">IoT Systems <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Python <span class="marquee-dot"></span></div>
     <div class="marquee-item">Electrical Safety <span class="marquee-dot"></span></div>
-    <div class="marquee-item">HTML5 <span class="marquee-dot"></span></div>
-    <div class="marquee-item">CSS3 <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Arduino <span class="marquee-dot"></span></div>
-    <div class="marquee-item">MongoDB <span class="marquee-dot"></span></div>
+    <div class="marquee-item">Tamil <span class="marquee-dot"></span></div>
+    <div class="marquee-item">English <span class="marquee-dot"></span></div>
   </div>
 </div>
 
-<!-- Projects -->
+<!-- Projects Section -->
 <section id="projects">
   <div class="section-header reveal">
     <div>
@@ -828,12 +824,9 @@
           <span class="tag">HTML/CSS</span>
         </div>
         <h3 class="project-name">Medical Chatbot<br>Assistant</h3>
-        <p class="project-desc">Intelligent medical chatbot using Wikipedia API for health information retrieval with MongoDB fallback system for reliable data storage. Provides instant responses to health-related queries with a clean, responsive interface.</p>
+        <p class="project-desc">Developed Medical Chatbot using Wikipedia API with MongoDB fallback system. Intelligent medical chatbot that uses Wikipedia API to fetch health-related information with MongoDB fallback system for reliable data storage and retrieval. Provides instant responses to health-related queries with a clean, responsive interface.</p>
         <div class="project-links">
-          <a href="#" class="project-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-            GitHub
-          </a>
+          <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
           <a href="#" class="project-link">↗ Live Demo</a>
         </div>
       </div>
@@ -855,12 +848,9 @@
         <span class="tag">Dashboard</span>
       </div>
       <h3 class="project-name">IoT Dashboard for Electrical Systems</h3>
-      <p class="project-desc">Smart monitoring dashboard combining EEE knowledge with web technologies for real-time data visualization of electrical parameters. Tracks voltage, current, and power consumption.</p>
+      <p class="project-desc">Smart monitoring dashboard combining EEE knowledge with web technologies for real-time data visualization of electrical parameters. Created IoT dashboard for electrical monitoring. Tracks voltage, current, and power consumption with real-time analytics.</p>
       <div class="project-links">
-        <a href="#" class="project-link">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-          GitHub
-        </a>
+        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
       </div>
     </div>
 
@@ -873,12 +863,9 @@
         <span class="tag">Responsive</span>
       </div>
       <h3 class="project-name">All-in-One Portfolio Website</h3>
-      <p class="project-desc">Complete portfolio with certifications showcase, responsive design, and elegant UI. Built with pure HTML5 and CSS3 using Flexbox and Grid layouts.</p>
+      <p class="project-desc">Complete portfolio with certifications showcase, responsive design, and elegant UI. Built responsive portfolio with dark theme and certification showcase. Developed with pure HTML5 and CSS3 using Flexbox and Grid layouts.</p>
       <div class="project-links">
-        <a href="#" class="project-link">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-          GitHub
-        </a>
+        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
       </div>
     </div>
   </div>
@@ -893,59 +880,23 @@
     </div>
   </div>
   <div class="cert-grid">
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-chart-line"></i></div><div class="cert-title">Academic Process Mining Fundamentals</div></div>
-      <div class="cert-issuer">Celonis Academy</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> October 16, 2025</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-database"></i></div><div class="cert-title">MongoDB & AI Fundamentals</div></div>
-      <div class="cert-issuer">ICT Academy Learnathon 2025</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> November 28, 2025</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-microchip"></i></div><div class="cert-title">Arduino Training</div></div>
-      <div class="cert-issuer">Spoken Tutorial Project, IIT Bombay</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> August 21, 2024</div>
-      <div class="cert-badge">Score: 85% | Credits: 3</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-language"></i></div><div class="cert-title">Japanese Language Proficiency Test (JLPT) N5</div></div>
-      <div class="cert-issuer">The Japan Foundation & JEES</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> December 7, 2025</div>
-      <div class="cert-badge">Score: 100/180 | Passed</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-industry"></i></div><div class="cert-title">Internship - Electrical System Study</div></div>
-      <div class="cert-issuer">NLC India Limited, TPS-I Expansion</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> June 14-27, 2024</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-shield-alt"></i></div><div class="cert-title">Electrical Safety Audits & Compliance (NEC 2023)</div></div>
-      <div class="cert-issuer">Knowledge Series Workshop</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> August 6, 2025</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-trophy"></i></div><div class="cert-title">Paper Presentation Winner - Texperia 2025</div></div>
-      <div class="cert-issuer">SNS College of Technology</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> March 19-20, 2025</div>
-      <div class="cert-badge">🏆 Winner Position</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-motorcycle"></i></div><div class="cert-title">Electric Bike Design & Racing Championship</div></div>
-      <div class="cert-issuer">Academy of Indigenous Motor Sports</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> February 26-28, 2025</div>
-      <div class="cert-badge">Team YOLO - Retrofit Category</div>
-    </div>
-    <div class="cert-card reveal">
-      <div class="cert-header"><div class="cert-icon"><i class="fas fa-lightbulb"></i></div><div class="cert-title">Problem Solving & Innovation</div></div>
-      <div class="cert-issuer">Wadhwani Foundation</div>
-      <div class="cert-date"><i class="far fa-calendar-alt"></i> November 22, 2025</div>
-    </div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-chart-line"></i></div><div class="cert-title">Academic Process Mining Fundamentals</div></div><div class="cert-issuer">Celonis Academy</div><div class="cert-date"><i class="far fa-calendar-alt"></i> October 16, 2025</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-database"></i></div><div class="cert-title">MongoDB & AI Fundamentals</div></div><div class="cert-issuer">ICT Academy Learnathon 2025</div><div class="cert-date"><i class="far fa-calendar-alt"></i> November 28, 2025</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-microchip"></i></div><div class="cert-title">Arduino Training</div></div><div class="cert-issuer">Spoken Tutorial Project, IIT Bombay</div><div class="cert-date"><i class="far fa-calendar-alt"></i> August 21, 2024</div><div class="cert-badge">Score: 85% | Credits: 3</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-language"></i></div><div class="cert-title">Japanese Language Proficiency Test (JLPT) N5</div></div><div class="cert-issuer">The Japan Foundation & JEES</div><div class="cert-date"><i class="far fa-calendar-alt"></i> December 7, 2025</div><div class="cert-badge">Score: 100/180 | Passed</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-industry"></i></div><div class="cert-title">Internship - Study of Overall Electrical System</div></div><div class="cert-issuer">NLC India Limited, TPS-I Expansion, Neyveli</div><div class="cert-date"><i class="far fa-calendar-alt"></i> June 14-27, 2024</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-shield-alt"></i></div><div class="cert-title">Electrical Safety Audits & Compliance (NEC 2023)</div></div><div class="cert-issuer">Knowledge Series Workshop</div><div class="cert-date"><i class="far fa-calendar-alt"></i> August 6, 2025</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-trophy"></i></div><div class="cert-title">Paper Presentation Winner - Texperia 2025</div></div><div class="cert-issuer">SNS College of Technology</div><div class="cert-date"><i class="far fa-calendar-alt"></i> March 19-20, 2025</div><div class="cert-badge">🏆 Winner Position</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-motorcycle"></i></div><div class="cert-title">Electric Bike Design & Racing Championship</div></div><div class="cert-issuer">Academy of Indigenous Motor Sports</div><div class="cert-date"><i class="far fa-calendar-alt"></i> February 26-28, 2025</div><div class="cert-badge">Team YOLO - Retrofit Category</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-pcb"></i></div><div class="cert-title">Advanced PCB Design: Schematic to Fabrication</div></div><div class="cert-issuer">Vellore Institute of Technology, Chennai</div><div class="cert-date"><i class="far fa-calendar-alt"></i> March 9, 2025</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-lightbulb"></i></div><div class="cert-title">Problem Solving & Innovation</div></div><div class="cert-issuer">Wadhwani Foundation</div><div class="cert-date"><i class="far fa-calendar-alt"></i> November 22, 2025</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-user-tie"></i></div><div class="cert-title">Self-Presentation</div></div><div class="cert-issuer">Wadhwani Foundation</div><div class="cert-date"><i class="far fa-calendar-alt"></i> November 22, 2025</div></div>
+    <div class="cert-card reveal"><div class="cert-header"><div class="cert-icon"><i class="fas fa-heart"></i></div><div class="cert-title">Customer Centricity</div></div><div class="cert-issuer">Wadhwani Foundation</div><div class="cert-date"><i class="far fa-calendar-alt"></i> November 22, 2025</div></div>
   </div>
+  <div style="text-align: center; padding: 20px 60px 40px;"><span class="cert-badge" style="background: var(--gold-dim); color: var(--gold);">15+ certifications across web development, IoT, electrical safety, and Japanese language. Winner at Texperia 2025 paper presentation and participant in National Electric Bike Racing Championship.</span></div>
 </section>
 
-<!-- Skills -->
+<!-- Skills Section -->
 <section id="skills">
   <div class="section-header reveal">
     <div>
@@ -977,7 +928,7 @@
   </div>
 </section>
 
-<!-- Experience / Internship -->
+<!-- Experience Section -->
 <section id="experience">
   <div class="section-header reveal">
     <div>
@@ -986,65 +937,31 @@
     </div>
   </div>
   <div class="timeline">
-    <div class="timeline-item reveal">
-      <div class="timeline-date">June 2024</div>
-      <div class="timeline-content">
-        <h3 class="timeline-role">Electrical Systems Intern</h3>
-        <p class="timeline-company">NLC India Limited · Thermal Power Station-I Expansion, Neyveli</p>
-        <p class="timeline-desc">Conducted comprehensive study of overall electrical systems in thermal power plants. Gained hands-on experience in power generation, transmission, and safety protocols. Analyzed operational efficiency and contributed to technical documentation.</p>
-      </div>
-    </div>
-    <div class="timeline-item reveal">
-      <div class="timeline-date">March 2025</div>
-      <div class="timeline-content">
-        <h3 class="timeline-role">Paper Presenter & Workshop Participant</h3>
-        <p class="timeline-company">Texperia 2025 · SNS College of Technology</p>
-        <p class="timeline-desc">Presented research paper on innovative electrical engineering concepts and won award. Participated in technical workshops focusing on emerging technologies in power systems and automation.</p>
-      </div>
-    </div>
-    <div class="timeline-item reveal">
-      <div class="timeline-date">August 2025</div>
-      <div class="timeline-content">
-        <h3 class="timeline-role">Electrical Safety Workshop Attendee</h3>
-        <p class="timeline-company">National Electrical Code of India 2023 · Salem</p>
-        <p class="timeline-desc">Completed specialized training on electrical safety audits and compliance standards. Gained certification in NEC 2023 guidelines for industrial and commercial electrical installations.</p>
-      </div>
-    </div>
+    <div class="timeline-item reveal"><div class="timeline-date">June 2024</div><div class="timeline-content"><h3 class="timeline-role">Electrical Systems Intern</h3><p class="timeline-company">NLC India Limited · Thermal Power Station-I Expansion, Neyveli</p><p class="timeline-desc">Conducted comprehensive study of overall electrical systems in thermal power plants. Gained hands-on experience in power generation, transmission, and safety protocols. Analyzed operational efficiency and contributed to technical documentation.</p></div></div>
+    <div class="timeline-item reveal"><div class="timeline-date">March 2025</div><div class="timeline-content"><h3 class="timeline-role">Paper Presenter & Workshop Participant</h3><p class="timeline-company">Texperia 2025 · SNS College of Technology</p><p class="timeline-desc">Presented research paper on innovative electrical engineering concepts and won award. Participated in technical workshops focusing on emerging technologies in power systems and automation.</p></div></div>
+    <div class="timeline-item reveal"><div class="timeline-date">August 2025</div><div class="timeline-content"><h3 class="timeline-role">Electrical Safety Workshop Attendee</h3><p class="timeline-company">National Electrical Code of India 2023 · Salem</p><p class="timeline-desc">Completed specialized training on electrical safety audits and compliance standards. Gained certification in NEC 2023 guidelines for industrial and commercial electrical installations.</p></div></div>
+    <div class="timeline-item reveal"><div class="timeline-date">February 2025</div><div class="timeline-content"><h3 class="timeline-role">Electric Bike Racing Participant</h3><p class="timeline-company">Academy of Indigenous Motor Sports · Coimbatore</p><p class="timeline-desc">Participated in National Level Electric Dirt Bike Event "Electric Bike Design & Racing Championship" representing Team YOLO in Retrofit Category Under 2KW.</p></div></div>
   </div>
 </section>
 
-<!-- Contact -->
+<!-- Contact Section -->
 <section id="contact" class="contact-section">
   <div class="contact-inner">
     <div class="contact-left reveal">
       <div>
         <p class="section-label" style="margin-bottom:20px">Get In Touch</p>
         <h2 class="contact-title">Let's build<br>something <em>great</em><br>together.</h2>
+        <p style="margin-top: 30px; font-size: 0.75rem; color: var(--muted);">Open for internships, collaborations, and technical discussions. Available for freelance web development and electrical engineering projects. Reach out via email or phone.</p>
       </div>
       <a href="mailto:sruthresh555@gmail.com" class="contact-email">sruthresh555@gmail.com</a>
     </div>
     <div class="contact-right reveal">
       <p style="font-size:0.65rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);margin-bottom:8px">Connect with me</p>
-      <a href="mailto:sruthresh555@gmail.com" class="social-item">
-        <span class="social-name">Email</span>
-        <span class="social-arrow">→</span>
-      </a>
-      <a href="tel:6382605653" class="social-item">
-        <span class="social-name">Phone: +91 6382605653</span>
-        <span class="social-arrow">→</span>
-      </a>
-      <a href="#" class="social-item">
-        <span class="social-name">GitHub</span>
-        <span class="social-arrow">→</span>
-      </a>
-      <a href="#" class="social-item">
-        <span class="social-name">LinkedIn</span>
-        <span class="social-arrow">→</span>
-      </a>
-      <a href="#" class="social-item">
-        <span class="social-name">Download CV</span>
-        <span class="social-arrow">→</span>
-      </a>
+      <a href="mailto:sruthresh555@gmail.com" class="social-item"><span class="social-name"><i class="fas fa-envelope"></i> sruthresh555@gmail.com</span><span class="social-arrow">→</span></a>
+      <a href="tel:6382605653" class="social-item"><span class="social-name"><i class="fas fa-phone-alt"></i> +91 6382605653</span><span class="social-arrow">→</span></a>
+      <a href="#" class="social-item"><span class="social-name"><i class="fab fa-github"></i> GitHub / ruthresh</span><span class="social-arrow">→</span></a>
+      <a href="#" class="social-item"><span class="social-name"><i class="fab fa-linkedin"></i> LinkedIn / ruthresh-s</span><span class="social-arrow">→</span></a>
+      <a href="#" class="social-item"><span class="social-name"><i class="fas fa-download"></i> Download CV / Resume</span><span class="social-arrow">→</span></a>
     </div>
   </div>
 </section>
@@ -1057,12 +974,6 @@
 </footer>
 
 <script>
-  // Font Awesome for icons
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
-  document.head.appendChild(link);
-
   // Custom cursor
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
